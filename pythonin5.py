@@ -28,6 +28,7 @@ print(True or False)
 print(True and False)
 print(a)
 print(b)
+
 # for item in list:
 for item in b:
     print(item)
@@ -38,9 +39,15 @@ x = 10
 while x > 0:
     print(x)
     x -= 1
+
 # print(b[2])
 try:
     print(b[2])
 except IndexError:
     print("Item not in list")
+
+def func():
+    print("Hello World")
+
+func();func()
 
